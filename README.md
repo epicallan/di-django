@@ -1,4 +1,4 @@
-#data hub proof of concept django backend for cms
+# di data-hub django proof of concept
 
 # How to start
 The code already contains a database with some sample data. It's superuser is demo, password demo.
