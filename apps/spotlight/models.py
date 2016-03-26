@@ -15,6 +15,7 @@ class Spotlight(models.Model):
 class Indicator(models.Model):
 	name = models.CharField(max_length=100)
 	slug = models.CharField(max_length=120)
+	heading = models.CharField(max_length=200, default='')
 	description = models.TextField()
 	spotlight = models.ForeignKey(Spotlight, on_delete=models.CASCADE)
 	upload = models.FileField(upload_to='uploads/%Y/%m/%d', blank=True, default='')

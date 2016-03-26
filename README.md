@@ -10,7 +10,7 @@ The code already contains a database with some sample data. It's superuser is de
 2) Install dependencies through pip
     $ pip install -r requirements.txt
 
-3) Run the sample code, use the desired address
+3) cd into apps and run the app, using the desired address
     $ ./manage.py runserver 127.0.0.1:8000
 
 4) Go to any of this URLs to check the API
@@ -22,5 +22,5 @@ The code already contains a database with some sample data. It's superuser is de
 6) Incase you make changes to the models please run ./manage.py makemigrations
   and ./manage.py migrate for them to persist
 
-# TO DO
-- No match for base URL
+# TOFIX / TODO
+- create view for base URL
