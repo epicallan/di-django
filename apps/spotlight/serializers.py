@@ -2,7 +2,7 @@
 serializer classes for the DI admin models
 '''
 from rest_framework import serializers
-from spotlight.models import Spotlight, Indicators
+from spotlight.models import Spotlight, Indicator
 
 
 class SpotlightSerializer(serializers.ModelSerializer):
@@ -11,7 +11,7 @@ class SpotlightSerializer(serializers.ModelSerializer):
         model = Spotlight
 
 
-class IndicatorsSerializer(serializers.ModelSerializer):
+class IndicatorSerializer(serializers.ModelSerializer):
 
     class Meta(object):
-        model = Indicators
+        model = Indicator
