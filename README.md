@@ -22,8 +22,8 @@ The code already contains a database with some sample data. It's superuser is de
 6) Incase you make changes to the models please run ./manage.py makemigrations
   and ./manage.py migrate for them to persist
 
-- To run with docker run ``` docker run  -t -i -p 8080:8080 --name di-django -d epicallan/di-django``` 
+- To run with docker run ``` docker run  -t -i -p 8080:8080 --name di-django -d epicallan/di-django```
 
-# TOFIX / TODO
+# TODO
 - create view for base URL
 - Use nginx as reverse proxy server
