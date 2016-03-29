@@ -24,3 +24,4 @@ The code already contains a database with some sample data. It's superuser is de
 
 # TOFIX / TODO
 - create view for base URL
+- Use nginx as reverse proxy server
