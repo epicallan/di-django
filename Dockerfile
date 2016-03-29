@@ -5,7 +5,7 @@ MAINTAINER epicallan <epicallan.al@gmail.com>
 RUN mkdir /src
 ADD ./apps /src
 
-WORKDIR /src/apps
+WORKDIR /src
 # install dependencies
 RUN apt-get update
 RUN pip install argparse==1.2.1 djangorestframework==3.1.1 wsgiref==0.1.2 gunicorn==19.4.5
