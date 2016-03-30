@@ -14,10 +14,10 @@ The code already contains a database with some sample data. It's superuser is de
     $ ./manage.py runserver 127.0.0.1:8000
 
 4) Go to any of this URLs to check the API
-    http://127.0.0.1:8000/api/spotlight/ # gets you list of current spotlightss
+    http://127.0.0.1:8080/api/spotlight/ # gets you list of current spotlightss
 
 5) You can also check/modify the data in the admin panel:
-   http://127.0.0.1:8000/admin
+   http://127.0.0.1:8080/admin
 
 6) Incase you make changes to the models please run ./manage.py makemigrations
   and ./manage.py migrate for them to persist
